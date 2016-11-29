@@ -80,6 +80,7 @@ input[type="submit"],.w3agile_contact_right_agileinfo p a,.w3_copy_right p a{
 }
 .logo span {
     color: #17C2A4;
+	font-size: 25px;
 }
 span.menu{
 	display:none;
@@ -1604,6 +1605,7 @@ span.menu {
 		text-align: center;
 		padding: 0px;
 		margin: 13px 0px 0px;
+	
 	}
 	.navigation-right ul.nav1 li {
 		display: inline-block;
@@ -1615,6 +1617,8 @@ span.menu {
 		display: none;
 		margin-top: 1.7em;
 		background:rgb(120, 120, 120);
+			font-size: 2px;
+	
 	}
 	.navigation-right {
 		margin: 0.4em 0 0;
