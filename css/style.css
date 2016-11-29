@@ -5,6 +5,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	font-family: 'Open Sans', sans-serif;
+	background-color: #fff7e5;
 }
 body a{
 	transition: 0.5s all;
