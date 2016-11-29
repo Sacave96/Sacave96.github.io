@@ -5,6 +5,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	font-family: 'Open Sans', sans-serif;
+	background-color: #fff7e5;
 }
 body a{
 	transition: 0.5s all;
@@ -145,15 +146,9 @@ span.menu{
     position: relative;
     font-family: 'Open Sans', sans-serif;
 }
-.w3ls_banner_info h3:after{
-	content:'';
-	background:#17C2A4;
-	height:1px;
-	width:30%;
-	position:absolute;
-	bottom:0%;
-	left:34%;
-}
+/* Borrado linea verde */
+
+
 .w3ls_banner_info p{
 	color:#fff;
 	line-height:1.8em;
@@ -375,7 +370,7 @@ h3.tittle {
 }
 .testimonial {
     padding: 5em 0;
-	background: #01365C;
+	background: #5C2A01;
 }
 .testimonial-info p {
     font-size: 1em;
@@ -482,7 +477,7 @@ p.who-text {
 /*--footer--*/
 .footer-agileinfo{
 	padding:4em 0;
-	background:#01365C;
+	background:#5C2A01;
 }
 .footer-agileinfo h3 {
     font-size: 3em;
