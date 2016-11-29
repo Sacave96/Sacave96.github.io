@@ -73,14 +73,14 @@ input[type="submit"],.w3agile_contact_right_agileinfo p a,.w3_copy_right p a{
 	font-family: 'Montserrat', sans-seri
 }
 .navigation-right ul li.active a{
-	color:#17C2A4;
+	color:sandybrown;
 }
 .navigation {
     padding:1em 0em;
     background:rgba(0, 0, 0, 0.53);
 }
 .logo span {
-    color: #17C2A4;
+    color: sandybrown;
 	font-size: 25px;
 }
 span.menu{
@@ -240,7 +240,7 @@ h2.tittle {
 .wel-grid h4 {
     font-size: 1.6em;
     color: #fff;
-    background: #17c2a4;
+    background: sandybrown;
     padding: .5em 0;
 }
 p.text {
@@ -281,7 +281,7 @@ p.text {
     margin-top: 4em;
 }
 a.button {
-    background: #17c2a4;
+    background: sandybrown;
     font-size: 1.1em;
     display: block;
     color: #fff;
