@@ -144,15 +144,7 @@ span.menu{
     position: relative;
     font-family: 'Open Sans', sans-serif;
 }
-.w3ls_banner_info h3:after{
-	content:'';
-	background:#17C2A4;
-	height:1px;
-	width:30%;
-	position:absolute;
-	bottom:0%;
-	left:34%;
-}
+
 .w3ls_banner_info p{
 	color:#fff;
 	line-height:1.8em;
