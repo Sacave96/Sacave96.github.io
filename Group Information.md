@@ -8,5 +8,5 @@
 |---------|-----------------|
 |Salvador |Castillo Vergara |
 |Antonio  |Sánchez Espinosa |
-|Javier   |Ortega Fernánde  |
+|Javier   |Ortega Fernández |
 |Javier   |Carmona Leiva    |
