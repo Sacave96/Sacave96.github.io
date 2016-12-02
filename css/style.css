@@ -1992,3 +1992,11 @@ h2.tittle {
     min-height: 180px;
 }
 }
+
+/* Centrar imágenes */
+.imagenes_centradas {
+	display: block;
+	margin: 3em auto;
+
+	box-shadow: 1em 1em 1.5em #888;	
+}
