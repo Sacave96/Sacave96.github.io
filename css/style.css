@@ -477,8 +477,7 @@ p.who-text {
 }
 /*--footer--*/
 .footer-agileinfo{
-	padding-top:1em;
-	padding-bottom: 1em;
+	padding:3em;
 	background:#5C2A01;
 }
 .footer-agileinfo h3 {
@@ -921,7 +920,6 @@ h3.tittle2 {
   content: "";
   display: block;
   position: absolute;
-  
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
   -webkit-transition: 0.8s ease-in-out;
@@ -1098,8 +1096,7 @@ h3.tittle2 {
     border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
     padding: 5em 0;
-    background:#5C2A01; /* MODIFICADO POR JAVI */
-    
+    background: #f7f7f7;
 }
 /*--gallery--*/
 /*--codes--*/
