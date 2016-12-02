@@ -5,7 +5,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	font-family: 'Open Sans', sans-serif;
-	background-color: #fff7e5;
+	background-color:#5C2A01;
 }
 body a{
 	transition: 0.5s all;
@@ -25,6 +25,8 @@ h1,h2,h3,h4,h5,h6{
 	
 }
 p{
+    text-align: center;
+    color: sandybrown;
 	padding: 0;
 	margin: 0;
 	color:#999;
@@ -1230,6 +1232,11 @@ ul.nav.nav-pills {
 .center-container {
     padding: 0em 0 10em;	
 }
+p.container {
+    font-size: 2.8em;
+    color:sandybrown;
+    text-align: center;
+    }
 h2.tittle {
     font-size: 2.8em;
 }
@@ -1287,6 +1294,11 @@ ul.place li {
 }
 h2.tittle {
     font-size: 2.5em;
+}
+p.tittle {
+    font-size: 8em;
+    color:#5C2A01;
+    text-align: center;
 }
 .navigation-right ul li a {
     color: #fff;
