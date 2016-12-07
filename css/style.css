@@ -837,6 +837,7 @@ h3.tittle2 {
 }
 .img-box img, .gallery-text-box img {
   display: block;
+    text-align: center;
   position: relative;
   max-width: 100%;
   max-height: 100%;
@@ -847,8 +848,13 @@ h3.tittle2 {
   transition: all 0.4s ease-in-out;
 }
 
+
 .img-box {
   position: relative;
+}
+.img-box-4 {
+    margin: auto;
+    display: block;
 }
 
 .CTOCen {
@@ -861,15 +867,20 @@ h3.tittle2 {
   top: 0;
   left: 0;
   position: absolute;
+    margin-right:auto;
 }
 .gallery-text-box .gallery-gal-text {
   display: block;
   position: relative;
   padding: 2%;
-  float: left;
+margin-right:auto;
+
+  float: center;
   left: 50%;
   top: 50%;
+    margin-top: -50%;
   position: relative;
+    
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
@@ -887,6 +898,15 @@ h3.tittle2 {
   clear: both;
 }
 
+.separator-1 {
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 60%;
+  margin: 10px auto;
+  background: rgba(255, 255, 255, 0.5);
+  clear: both;
+}
 .round-box {
   overflow: hidden;
   -webkit-border-radius: 50%;
@@ -936,6 +956,7 @@ h3.tittle2 {
 .gallery-gal-effect .img-box:after, .gallery-gal-effect .img-box:before, .gallery-gal-effect .gallery-text-box:after, .gallery-gal-effect .gallery-text-box:before {
   content: "";
   display: block;
+text-align: center;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
@@ -1248,13 +1269,17 @@ ul.nav.nav-pills {
     padding: 0em 0 10em;	
 }
 p.container {
-    font-size: 2.8em;
+    font-size: 2.5em;
     color:sandybrown;
     text-align: center;
     }
 h2.tittle {
     font-size: 2.8em;
 }
+h3.tittle {
+    font-size: 2.4;
+    text-align: center;
+    }     
 .wel-grid h4,.who-grid h4,.who-grid h4,.about-grid h4,.services-grid1 h4,.feature-grid h4,.enquiry-gd h4 {
     font-size: 1.5em;
 }
