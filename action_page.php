@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-<title>Formulario</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-<div>
-<?php
-       $Nombre = $_GET['Nombre'];
-       echo "<p>Nombre: $Nombre</p>";
-	   $Email = $_GET['Email'];
-       echo "<p>Email: $Email</p>";
-	   $Asunto = $_GET['Asunto'];
-	   echo "<p>Asunto: $Asunto</p>";
-	   $Mensaje = $_GET['Mensaje'];
-	   echo "<p>Mensaje: $Mensaje</p>";
-	
-?>
-</div>
-
-</body>
+<html>
+  <head>
+	<meta charset="utf-8" />
+	<title>Formulario</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <?php
+      $Nombre = $_POST["Nombre"];
+      $Email = $_POST["Email"];
+      $Asunto = $_POST['Asunto'];
+      $Mensaje = $_POST["Mensaje"];
+      echo "<section>\n";
+      echo "      <p><b>Nombre:</b> $Nombre</p>\n";	
+      if ( empty($Email) ) {
+        echo "      <p><b>Email:</b> <i>no has introducido nada</i></p>\n";
+      } else {
+        echo "      <p><b>Email:</b> $Email</p>\n";
+      }
+      if ( empty($Asunto) ) {
+        echo "      <p><b>Asunto:</b> <i>no has introducido nada</i></p>\n";
+      } else {
+        echo "      <p><b>Asunto:</b> $Asunto</p>\n";
+      }		
+      if ( empty($Mensaje) ) {
+        echo "      <p><b>Mensaje:</b> <i>no has introducido nada</i></p>\n";
+      } else {
+       echo "      <p><b>Mensaje:</b> $Mensaje</p>\n";
+      }
+      echo "    </section>";
+	?> 
+  </body>
 </html>

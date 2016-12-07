@@ -2039,4 +2039,12 @@ h2.tittle {
 	margin: 3em auto;
 	width: 90%;
 	box-shadow: 1em 1em 1.5em #888;	
-	}
+}
+
+section {
+	margin: 0;
+	padding: 2em;
+}
+section p {
+	line-height: 2em;
+}
