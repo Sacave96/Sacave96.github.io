@@ -114,12 +114,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						<div class="col-md-8 contact_left">
 							<h4>Formulario de contacto</h4>
 							<p>¿Tienes alguna pregunta?¿Quieres trabajar con nosotros? Contacta con nosotros y unete.</p>
-						  <form action="#" method="post">
+						  <form name="formulario" action="action_page.php" method="get">
 							 <div class="form_details">
-								  <input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nomobre';}">
-								  <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
-								  <input type="text" class="text" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Asunto';}">
-								  <textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}">Mensaje</textarea>
+								  <input type="text" class="text" name="Nombre" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre';}">
+								  <input type="text" class="text" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+								  <input type="text" class="text" name="Asunto" value="Asunto" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Asunto';}">
+								  <textarea name="Mensaje" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}">Mensaje</textarea>
 								  <div class="clearfix"> </div>
 									 <div class="sub-button">
 										<input type="submit" value="Enviar">
