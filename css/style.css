@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6{
 	
 }
 p{
-    text-align: left;
+    text-align: center;
     /*color: sandybrown;*/
 	padding: 0;
 	margin: 0;
@@ -819,6 +819,9 @@ h3.tittle2 {
   display: block;
   width: 100%;
   height: 100%;
+    text-align: center;
+    align-content: center;
+    
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
@@ -850,11 +853,15 @@ h3.tittle2 {
 
 
 .img-box {
-  position: relative;
+  position: static;
+display: block;
+    text-align: center;
 }
 .img-box-4 {
     margin: auto;
     display: block;
+    text-align: center;
+    
 }
 
 .CTOCen {
@@ -1134,7 +1141,7 @@ text-align: center;
     border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
     padding: 5em 0;
-    background: #f7f7f7;
+    background-color:cornsilk;
 }
 /*--gallery--*/
 /*--codes--*/
@@ -1339,6 +1346,7 @@ p.tittle {
     font-size: 8em;
     color:#6E2700;
     text-align: center;
+    margin: auto;
 }
 .navigation-right ul li a {
     color: #fff;
