@@ -867,6 +867,11 @@ display: block;
 .CTOCen {
     display: block;
     margin: auto;
+    width: 90%;
+}
+.aladerechita {
+    float: right;
+    
 }
 
 
