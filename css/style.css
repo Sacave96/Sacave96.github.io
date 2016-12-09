@@ -2056,3 +2056,8 @@ section {
 section p {
 	line-height: 2em;
 }
+#map {
+	width: 600;
+	height: 450;
+	frameborder: 0;
+}
