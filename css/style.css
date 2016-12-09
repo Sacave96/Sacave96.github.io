@@ -24,6 +24,17 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
 	
 }
+
+.textoimagen1 {
+    float: left;
+    
+}
+.textoimagen2 {
+    float: left;
+}
+.textoimagen3 {
+    float:left;
+}
 p{
     text-align: center;
     /*color: sandybrown;*/
