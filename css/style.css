@@ -29,16 +29,42 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
 	
 }
-
-.textoimagen1 {
-    float: left;
+.parrafo1{
+    text-align: center;
     
 }
+
+.textoimagen1 {
+    display: block;
+	margin: 3em auto;
+	width: 55%;
+    box-shadow: 10px 10px 5px #888888;
+}
+
 .textoimagen2 {
     float: left;
+    margin: 0 0 10px 10px;
+    width: 30%;
+    box-shadow: 10px 10px 5px #888888;
+   /*float: left;
+    margin-right: 10px;
+	width: 30%;
+	box-shadow:: 1em 1em 1em 1em #888;*/
+}
+.parrafo2{
+    text-align:right;
 }
 .textoimagen3 {
-    float:left;
+    display:block;
+	margin: 3em auto;
+	width: 55%;
+	box-shadow: 10px 10px 5px #888888;
+}
+.textoimagen4 {
+    display:block;
+	margin: 3em auto;
+	width: 55%;
+	box-shadow: 10px 10px 5px #888888;
 }
 p{
     text-align: center;
