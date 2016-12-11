@@ -889,6 +889,10 @@ display: block;
     float: right;
     
 }
+.alaizquierdita {
+    float: left;
+    margin-right: 10px;
+}
 
 
 .gallery-text-box {
