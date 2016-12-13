@@ -10,7 +10,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 body{
 	font-family: 'Open Sans', sans-serif;
-	background-color: #fff7e5;
+	background-color: cornsilk;
 }
 body a{
 	transition: 0.5s all;
@@ -2105,7 +2105,7 @@ h2.tittle {
 	display: block;
 	margin: 3em auto;
 	width: 90%;
-	box-shadow: 1em 1em 1.5em #888;	
+	box-shadow: 10px 10px 5px #888;
 }
 
 section {
