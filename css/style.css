@@ -2108,7 +2108,7 @@ h2.tittle {
 .imagenes_centradas {
 	display: block;
 	margin: 3em auto;
-	width: 90%;
+	width: 70%;
 	box-shadow: 10px 10px 5px #888;
 }
 
@@ -2122,4 +2122,14 @@ section p {
 #map {
 	width: 600;
 	height: 450;
+}
+
+#videoyoutube {
+	position: relative;
+	margin: 1em 3em 3em 1em;
+	width: 560px;
+	height: 315px;
+	left: 50%;
+	margin-left: -280px;
+	box-shadow: 10px 10px 5px #888;
 }
