@@ -72,7 +72,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .video1{
+    width="560";
+    height="315";
+     
     text-align: center;
+    
 }
 p{
     text-align: center;
