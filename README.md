@@ -13,6 +13,10 @@ A Website about Scorpions
 
 https://github.com/Sacave96/Sacave96.github.io/blob/master/AUTHORS.md
 
+##MIT License
+
+https://github.com/Sacave96/Sacave96.github.io/blob/master/LICENSE.md
+
 ##Fuentes de información
 
 https://github.com/Sacave96/Sacave96.github.io/blob/master/Fuentes_Informacion.txt
