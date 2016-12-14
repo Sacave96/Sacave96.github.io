@@ -30,7 +30,10 @@ h1,h2,h3,h4,h5,h6{
 	
 }
 .parrafo1{
-    text-align: center;
+text-align: center;
+font-family: "Montserrat",sans-serif;
+font-size: 1.5em;
+color: #555;
     
 }
 
@@ -43,8 +46,8 @@ h1,h2,h3,h4,h5,h6{
 
 .textoimagen2 {
     float: left;
-    margin: 0 0 10px 10px;
-    width: 30%;
+    margin: 0px 1.5em 1.5em 0px;
+    width: 50%;
     box-shadow: 10px 10px 5px #888888;
     
    /*float: left;
@@ -53,8 +56,10 @@ h1,h2,h3,h4,h5,h6{
 	box-shadow:: 1em 1em 1em 1em #888;*/
 }
 .parrafo2{
-    text-align:right;
+    text-align: left;
     padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 2em;
     
 }
 .textoimagen3 {
@@ -2173,3 +2178,13 @@ iframe {
 	width: 300px;
 	margin-left: -150px;
 }
+
+/* Modificación márgenes de la web */
+p {
+	line-height: 1.7em;
+}
+.container {
+	padding-left: 5em;
+	padding-right: 5em;
+}
+/* ------------------------------- */
