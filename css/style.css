@@ -1,4 +1,4 @@
-﻿/*Author: W3layouts
+/*Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
@@ -656,6 +656,9 @@ p.copy-right a:hover{
 }
 .team-img {
     position: relative;
+}
+.team-img-jefe {
+    position:relative;
 }
 .team-img:hover .overlay {
     cursor: pointer;
