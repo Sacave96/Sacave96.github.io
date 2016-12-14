@@ -2169,3 +2169,6 @@ iframe {
     width:560px;
     height:315px;
 }
+#ocultar{
+	display:none;
+}
