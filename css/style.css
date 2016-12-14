@@ -295,7 +295,7 @@ button.close {
 /*--banner-bottom--*/
 .welcome-w3,.services-w3,.enquiry-agile,.about-w3,.principles-w3l {
     text-align: center;
-    padding: 5em 0;
+    padding: 2em 0;
 }
 h2.tittle {
     font-size: 3em;
@@ -1311,7 +1311,7 @@ ul.nav.nav-pills {
 .contact_left h4,.company_ad h4 {
     font-size: 1.6em;
     text-transform: capitalize;
-    color: #F4A460;
+    color: #BA4F38;
 	margin-bottom: 0.3em;
  }
  .company_ad p {
@@ -2188,3 +2188,7 @@ p {
 	padding-right: 5em;
 }
 /* ------------------------------- */
+#acercade {
+	font-size: 0.956em;
+	text-align: left !important;
+}
