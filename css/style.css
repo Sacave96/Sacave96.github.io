@@ -1,4 +1,4 @@
-﻿/*Author: W3layouts
+/*Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
@@ -71,15 +71,15 @@ h1,h2,h3,h4,h5,h6{
 	box-shadow: 10px 10px 5px #888888;
 }
 
-<<<<<<< HEAD
+
 .video2 {
     text-align: center;
     width="560";
     height="315";
+    text-align: center;
     
 }
-=======
-<<<<<<< HEAD
+
 .video1{
     width: 560em;
     height: 315em;
@@ -87,10 +87,7 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     
 }
-=======
->>>>>>> 2c06b10d1a9e5ece3315d0d81cebe3af63bd88c0
 
->>>>>>> 1bd7245ddc639d29d346c01fea7403ab37d919c1
 p{
     text-align: center;
     /*color: sandybrown;*/
