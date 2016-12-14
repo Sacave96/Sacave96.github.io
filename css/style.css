@@ -72,6 +72,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
+
+
+
+
 p{
     text-align: center;
     /*color: sandybrown;*/
@@ -318,7 +322,6 @@ p.text {
     transition: all 2s ease-in-out;
 }
 .wel1 img:hover{
-	webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
@@ -454,7 +457,6 @@ h3.tittle {
     transition: all 2s ease-in-out;
 }
 .latest-grid img:hover{
-	webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
@@ -640,7 +642,6 @@ p.copy-right a:hover{
     transition: all 2s ease-in-out;
 }
 .about-right:hover img,.about-left img:hover  {
-    webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
@@ -858,7 +859,6 @@ h3.tittle2 {
     transition: all 2s ease-in-out;
 }
 .enquiry-gd img:hover {
-     webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
@@ -942,7 +942,6 @@ display: block;
   padding: 2%;
 margin-right:auto;
 
-  float: center;
   left: 50%;
   top: 50%;
     margin-top: -50%;
@@ -1597,11 +1596,6 @@ ul.place li {
     font-size: 0.95em;
     line-height: 1.8em;
 }
-}
-@media(max-width:667px){
-.navigation-right {
-    margin: 0.3em 0 0;
-}
 .link-effect-3 a {
     margin: 0 4px;
 }
@@ -2117,8 +2111,8 @@ section p {
 	line-height: 2em;
 }
 #map {
-	width: 600;
-	height: 450;
+	width: 600em;
+	height: 450em;
 }
 
 #videoyoutube {
@@ -2162,4 +2156,7 @@ iframe {
 .framing{
     width:560px;
     height:315px;
+}
+#ocultar{
+	display:none;
 }
