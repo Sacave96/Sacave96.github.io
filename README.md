@@ -15,7 +15,7 @@ https://github.com/Sacave96/Sacave96.github.io/blob/master/AUTHORS.md
 
 ##MIT License
 
-https://github.com/Sacave96/Sacave96.github.io/blob/master/LICENSE.md
+https://github.com/Sacave96/Sacave96.github.io/blob/master/LICENSE
 
 ##Fuentes de información
 
