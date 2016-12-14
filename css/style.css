@@ -658,6 +658,9 @@ p.copy-right a:hover{
 .team-img {
     position: relative;
 }
+.team-img-jefe {
+    position:relative;
+}
 .team-img:hover .overlay {
     cursor: pointer;
     opacity: 1;
