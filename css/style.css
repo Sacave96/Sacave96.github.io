@@ -2164,3 +2164,12 @@ iframe {
 #ocultar{
 	display:none;
 }
+.erjefe {
+	padding: 0px !important;
+	padding-top: 3em !important;
+	height: 300px;
+	clear: both;
+	left: 50%;
+	width: 300px;
+	margin-left: -150px;
+}
